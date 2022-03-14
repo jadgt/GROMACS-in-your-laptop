@@ -38,5 +38,9 @@ The instructions are pretty clear
 
 Once installed just use the terminal provided by the distro and follow the same steps as **Linux users**
 
+## Pick your visualization environment 
+
+I personally would recommend to go for [VMD](https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD) since in this tutorial I will be using it: 
+
 # First simulation in GROMACS
-To get started let's move to the following [folder](example/)
+To get started let's move to the following [example](example/Template.md)
