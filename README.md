@@ -5,7 +5,7 @@ Tutorial about how to install and run easy simulations in your laptop with GROMA
 
 The very first thing we need is to get GROMACS in our laptop, for that we can nicely use the package managers in our favourite OS (Windows is not one of those unfortunately).
 
-## LINUX users:
+## Linux users:
 As simple as using apt-get:
 1. Update your packages:
 ```sudo apt-get update -y```
