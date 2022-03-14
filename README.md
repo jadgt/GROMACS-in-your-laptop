@@ -39,4 +39,4 @@ The instructions are pretty clear
 Once installed just use the terminal provided by the distro and follow the same steps as **Linux users**
 
 # First simulation in GROMACS
-To get started let's move to the following [folder](example/Template.md)
+To get started let's move to the following [folder](example/)
