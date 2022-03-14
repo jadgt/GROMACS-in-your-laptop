@@ -32,7 +32,7 @@ Just as a reminder, after compiling you have to source GROMACS every time, to av
 To your bash/zsh file (.bashrc or .zshrc) so the shell will initialize GROMACS everytime you open a new terminal.
 
 ## Fix for Windows Users:
-Any Windows user that wants to install Linux packages has a savior called WSL that allows to install a Linux terminal in your favorite distribution. To know more and install it:
+Any Windows user that wants to install Linux packages has a savior called WSL that allows to install a Linux terminal of your favorite distribution. To know more and install it:
 https://docs.microsoft.com/en-us/windows/wsl/install
 The instructions are pretty clear
 
