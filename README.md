@@ -8,9 +8,7 @@ The very first thing we need is to get GROMACS in our laptop, for that we can ni
 ## LINUX users:
 As simple as using apt-get:
 1. Update your packages:
-'''
-sudo apt-get update -y
-'''
+```sudo apt-get update -y```
 2. Retrieve and install GROMACS
 '''
 sudo apt-get install -y gromacs
