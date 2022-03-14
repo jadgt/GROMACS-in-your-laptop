@@ -80,7 +80,7 @@ Now you'll see a new residue in the topology called SOL, that's the water
 
 ## Adding ions
 The treatment of the non bonded interactions with the Particle Mesh Ewald (PME) algorithm does not like net charges in the system.
-Type: `gmx grompp -f ions -c solv -p topol -o ions``
+Type: `gmx grompp -f ions -c solv -p topol -o ions` 
       `gmx genion -s ions -p topol -neutral -pname NA -nname CL -o solv_ions`
 
 ## Energy minimization
