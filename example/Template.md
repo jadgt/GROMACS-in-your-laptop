@@ -80,25 +80,26 @@ Now you'll see a new residue in the topology called SOL, that's the water
 
 ## Adding ions
 The treatment of the non bonded interactions with the Particle Mesh Ewald (PME) algorithm does not like net charges in the system.
-Type: `gmx grompp -f ions -c solv -p topol -o ions` 
-      `gmx genion -s ions -p topol -neutral -pname NA -nname CL -o solv_ions`
+Type: ```gmx grompp -f ions -c solv -p topol -o ions 
+         gmx genion -s ions -p topol -neutral -pname NA -nname CL -o solv_ions```
 
 ## Energy minimization
 Let's find a local minimum in the conformational space:
-Type: `gmx grompp -f em -c solv_ions -p topol -o em`
-      `gmx mdrun -v -deffnm em`
+Type: ```gmx grompp -f em -c solv_ions -p topol -o em
+         gmx mdrun -v -deffnm em```
 
 ## Equilibrations
 To have an stable simulation we need to get an equilibrated system:
-**NVT Equilibration**
-Type: `gmx grompp -f nvt -c em -p topol -o nvt`
-      `gmx mdrun -v -deffnm nvt`
-Type: `gmx grompp -f npt -c nvt -p topol -o npt`
-      `gmx mdrun -v -deffnm npt`
+- **NVT Equilibration**
+Type: ```gmx grompp -f nvt -c em -p topol -o nvt
+         gmx mdrun -v -deffnm nvt```
+- **NPT Equilibration**
+Type: ```gmx grompp -f npt -c nvt -p topol -o npt
+         gmx mdrun -v -deffnm npt```
 
 ## Actual MD Simulation
-Type: `gmx grompp -f md -c npt -p topol -o md`
-      `gmx mdrun -v -deffnm md` 
+Type: ```gmx grompp -f md -c npt -p topol -o md
+         gmx mdrun -v -deffnm md``` 
 
 
 
