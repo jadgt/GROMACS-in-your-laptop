@@ -9,4 +9,4 @@ So, let's retrieve the folder in our laptop and start playing with it, to do tha
 ### MacOS
 ```brew install wget```
 2. Use **wget** to download the files:
-```wget 
+```wget https://github.com/jadgt/GROMACS-in-your-laptop/tree/main/Tutorial%20Example```
