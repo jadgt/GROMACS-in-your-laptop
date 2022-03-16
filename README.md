@@ -44,3 +44,6 @@ I personally would recommend to go for [VMD](https://www.ks.uiuc.edu/Development
 
 # First simulation in GROMACS
 To get started let's move to the following [example](example/Template.md)
+
+# Running GROMACS in a Jupyter notebook
+I leave a [template](example/jupyter_gromacs.ipynb) with the very basics of GROMACS and visualization tools in Python
