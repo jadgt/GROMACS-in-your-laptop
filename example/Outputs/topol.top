@@ -1,19 +1,19 @@
 ;
 ;	File 'topol.top' was generated
 ;	By user: root (501)
-;	On host: n152-p48.eduroam.kth.se
-;	At date: Mon Mar 14 13:45:21 2022
+;	On host: n162-p66.eduroam.kth.se
+;	At date: Thu Mar 17 09:57:38 2022
 ;
 ;	This is a standalone topology file
 ;
 ;	Created by:
-;	                 :-) GROMACS - gmx pdb2gmx, 2022-Homebrew (-:
+;	               :-) GROMACS - gmx pdb2gmx, 2022-conda_forge (-:
 ;	
-;	Executable:   /opt/homebrew/bin/../Cellar/gromacs/2022/bin/gmx
-;	Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2022
-;	Working dir:  /Users/juandegracia/Library/CloudStorage/OneDrive-KTH/0 - KTH/Tutorial GROMACS/GROMACS-in-your-laptop/example/Lysozyme
+;	Executable:   /opt/anaconda3/envs/modelling/bin.SSE2/gmx
+;	Data prefix:  /opt/anaconda3/envs/modelling
+;	Working dir:  /Users/juandegracia/Library/CloudStorage/OneDrive-KTH/0 - KTH/Tutorial GROMACS/GROMACS-in-your-laptop/example/Outputs
 ;	Command line:
-;	  gmx pdb2gmx -f 1aki.pdb -o 1aki_proc -water spce
+;	  gmx pdb2gmx -f 1aki -o 1_aki_proc -water spce
 ;	Force field was read from the standard GROMACS share directory.
 ;
 
@@ -18408,3 +18408,4 @@ LYSOZYME in water
 Protein_chain_A     1
 SOL         3081
 CL               8
+
